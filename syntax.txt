@@ -1,0 +1,25 @@
+import tkinter as tk
+from tkinter import ttk
+
+# making window
+window=tk.TK()
+window.geometry("width  x  height")
+window.title("any title")
+
+# widgets
+
+label = ttk.Label(master = window, text="hahah")
+label.pack()
+
+entry = ttk.Entry
+entry.pack()
+
+text =
+text.pack()
+
+button =
+button.pack()
+
+
+
+window.mainloop()
